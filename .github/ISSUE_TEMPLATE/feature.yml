@@ -1,29 +1,41 @@
-name: 🚀 Feature Request
-description: Suggest a new feature or enhancement
-title: "[FEATURE] <title>"
-labels: ["Feature Request", "Needs Triage"]
+name: 🔧 Improvement Request
+description: Suggest an improvement or enhancement to an existing feature
+title: "improve: <title>"
+labels: ["Improvement", "Needs Triage"]
 body:
   - type: textarea
     attributes:
       label: Description
-      description: A clear and concise description of the feature you're requesting.
+      description: A clear and concise description of the improvement you're suggesting.
     validations:
       required: true
   - type: textarea
     attributes:
-      label: Use Case
-      description: Explain how this feature would benefit users or improve the project.
+      label: Current Behavior
+      description: Describe the current behavior or state of the feature you're suggesting an improvement for.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Suggested Enhancement
+      description: Describe the improvement or enhancement you're proposing.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Benefits
+      description: Explain how this improvement would benefit users or improve the project.
     validations:
       required: false
   - type: textarea
     attributes:
       label: Alternatives Considered
-      description: Have you considered any alternative solutions or features?
+      description: Have you considered any alternative solutions or improvements?
     validations:
       required: false
   - type: textarea
     attributes:
       label: Additional Context
-      description: Add any other context or screenshots about the feature request here.
+      description: Add any other context or screenshots about the improvement request here.
     validations:
       required: false
